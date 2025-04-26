@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: rgb(8, 177, 255);
+    text-align: center;
+    padding: 20px;
+}
+header nav{
+    margin-top: 20px;
+}
+header nav a{
+    padding: 0px 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: #FFFFFF;;
+}
+.Banner{
+    background-image: url(../img/banner-dog.png);
+    background-repeat: no-repeat;
+    background-color: #FFD6E7;
+    text-align: center;
+    height: 350px;
+    padding-top: 150px;
+    background-position: center;
+    background-size: cover;
+}
+.Banner h1{
+    font-size: 5em;
+    color: #149CD7;
+}
+.Banner p{
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-top: 7px;
+    color: #2C3E50;
+}
+.Banner a{
+    background-color: #FF45B3;
+    color: white;
+    padding: 12px 22px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s
+}
+.Banner a:hover{
+    transform: scale(1.2);
+}
+.servicos{
+    background-color: rgba(100, 149, 237, 0.2);
+    padding: 50px 20px ;
+    text-align: center;
+}
+.servicos h2{
+    font-size: 1.8em;
+    color: #8E44AD;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.servicos div{
+    background-color: #fff;
+    width: 350px;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 409px ;
+    border-radius: 20px ;
+    box-shadow: black 1px 1px 8px 10px;
+}
+.servicos div h3{
+    font-size: 1.5em;
+    margin-top: 20px;
+ 
+}
